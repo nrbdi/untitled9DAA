@@ -68,6 +68,10 @@ public class QuickSort {
         }
     }
 
+    private static int randomizedPartition(int[] arr, int left, int right, Metrics metrics) {
+        return 0;
+    }
+
     private static int choosePivot(int[] arr, int left, int right, Metrics metrics) {
         // Use median-of-three for better pivot selection
         if (right - left >= 2) {
